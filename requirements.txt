@@ -1,5 +1,5 @@
 country_converter==0.7.4
-Flask_Caching>=2.0.1
+Flask_Caching==2.0.1
 matplotlib==3.5.1
 numpy==1.21.4
 pandas==1.5.0
