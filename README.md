@@ -38,8 +38,8 @@ To run using Python 3.10, right-click your local repo and open a terminal.
 
 ```bash
 pyenv install 3.10  # Skip if you've already installed 3.10
-pyenv local 3.10
-python3.10 -m venv env  # Before re-running, delete the existing env folder, or skip this line.
+pyenv local 3.10 # Optional since a .python-version file already resides in repo.
+python -m venv env  # Before re-running, delete the existing env folder, or skip this line.
 source env/bin/activate  # On Windows .\env\Scripts\activate
 python --version
 ```
