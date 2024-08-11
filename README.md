@@ -28,17 +28,18 @@ It will:
 The application to visualize all the sankey diagrams is available in another repository: https://github.com/baptiste-an/Application-mapping-GHG
 
 
-## How to revert to Python 3.10 using pyenv
+## Steps for Python 3.10 with pyenv
 
-To run requirements.txt above, you may need Python 3.10.  Check your version using `python --version`.  
-You can use pyenv to limit where you run Python 3.10. [About pyenv](https://model.earth/io/coders/python/).
+To run requirements.txt above, you may need Python 3.10.  
+Check your version using `python --version`.  
+pyenv can be used to limit where you run Python 3.10. [About pyenv](https://model.earth/io/coders/python/).
 
-For Python 3.10, right-click your local repo and open a terminal.
+To run using Python 3.10, right-click your local repo and open a terminal.
 
 ```bash
 pyenv install 3.10  # Skip if you've already installed 3.10
 pyenv local 3.10
-python3.10 -m venv env  # Before re-running, delete the existing env folder, or skip this line and reuse the env folder.
+python3.10 -m venv env  # Before re-running, delete the existing env folder, or skip this line.
 source env/bin/activate  # On Windows .\env\Scripts\activate
 python --version
 ```
