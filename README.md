@@ -28,15 +28,12 @@ It will:
 The application to visualize all the sankey diagrams is available in another repository: https://github.com/baptiste-an/Application-mapping-GHG
 
 
-## Steps for Python 3.10 with pyenv
+## Run Python 3.10 with pyenv
 
-To run requirements.txt above, you may need Python 3.10.  
-Check your version using `python --version`.  
-pyenv can be used to limit where you run Python 3.10. [About pyenv](https://model.earth/io/coders/python/).
+To install requirements.txt above, you may need Python 3.10.  Check your version using `python --version`.  You can run pyenv to toggle your python versions. [About pyenv](https://model.earth/io/coders/python/).
 
-To run using Python 3.10, right-click your local repo and open a terminal.
-
-You can skip this step if you've already installed 3.10.
+To run Python 3.10, right-click your local repo and open a terminal.  
+(You can skip this first step if you've already installed 3.10)
 
 	pyenv install 3.10
 
@@ -46,8 +43,7 @@ Optional, since a .python-version file already resides in the repo.
 	pyenv local 3.10
 -->
 
-You can delete your existing "env" folder before running this step.  
-Doing so may help clear out settings if you have an issue.
+Delete your existing "env" folder before running this step if you're debugging.
 
 	python3.10 -m venv env
 
@@ -61,7 +57,7 @@ On Windows run:
 	.\env\Scripts\activate
 	python --version
 
-Now you can continue with the requirments install above.
+Now you can continue with the requirments.txt install above.
 
 ## Citation
 
