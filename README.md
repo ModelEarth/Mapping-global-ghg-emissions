@@ -50,14 +50,13 @@ Delete your existing "env" folder before running this step if you're debugging.
 On Mac/Linux run:
 
 	source env/bin/activate
-	python --version
 
 On Windows run:
 
 	.\env\Scripts\activate
-	python --version
+	
 
-Now you can continue with the requirments.txt install above.
+Confirm the version with `python -V` and continue with the requirments.txt install above.
 
 ## Citation
 
