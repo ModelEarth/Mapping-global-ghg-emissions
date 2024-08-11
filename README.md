@@ -30,7 +30,8 @@ The application to visualize all the sankey diagrams is available in another rep
 
 ## Run Python 3.10 with pyenv
 
-To install requirements.txt above, you may need Python 3.10.  Check your version using `python --version`.  You can run pyenv to toggle your python versions. [About pyenv](https://model.earth/io/coders/python/).
+To install requirements.txt above, you may need Python 3.10.  Check your version using `python -V`.  
+You can run pyenv to toggle your python versions. ([About pyenv](https://model.earth/io/coders/python/))
 
 To run Python 3.10, right-click your local repo and open a terminal.  
 (You can skip this first step if you've already installed 3.10)
