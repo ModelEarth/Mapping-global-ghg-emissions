@@ -27,6 +27,21 @@ It will:
 
 The application to visualize all the sankey diagrams is available in another repository: https://github.com/baptiste-an/Application-mapping-GHG
 
+
+## Steps for running python 3.10 using pyenv
+
+To run requirements.txt above, you may need Python 3.10.  
+You can check your python version using `python --version`.
+You can use pyenv to limit where you run Python 3.10. [More about pyenv](https://model.earth/io/coders/python/).
+
+```bash
+pyenv install 3.10  # Skip if you've already installed 3.10
+pyenv local 3.10
+python3.10 -m venv env  # Before re-running, delete the existing env folder, or skip this line and reuse the env folder.
+source env/bin/activate  # On Windows .\env\Scripts\activate
+python --version
+```
+
 ## Citation
 
 Andrieu, B., Le Boulzec, H., Delannoy, L., Verzier, F., Winter, G., Vidal, O., Mapping global greenhouse gases emissions: an interactive, open-access, web application. Available at:
